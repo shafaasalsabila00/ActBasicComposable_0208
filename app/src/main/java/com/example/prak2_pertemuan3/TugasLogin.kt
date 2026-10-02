@@ -64,6 +64,27 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             contentScale = ContentScale.Fit,
             modifier = Modifier.size(130.dp)
         )
+
+        Spacer(modifier = Modifier.height(60.dp))
+
+        Text(
+            text = "Nama",
+            fontSize = 14.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Red
+        )
+        Text(
+            text = "Shafa Salsabila Ramadhani",
+            fontSize = 16.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Blue
+        )
+        Text(
+            text = "20240140208",
+            fontSize = 22.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Black
+        )
     }
     }
 }
