@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -85,6 +86,19 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold,
             color = Color.Black
         )
+
+        Spacer(modifier = Modifier.height(12.dp))
+
+        Box(
+            modifier = Modifier
+                .size(290.dp)
+                .clip(CircleShape)
+                .background(Color(0xFFE8E8F5))
+                .border(width = 3.dp, color = Color.White, shape = CircleShape),
+            contentAlignment = Alignment.Center
+        ) {
+
+        }
     }
     }
 }
