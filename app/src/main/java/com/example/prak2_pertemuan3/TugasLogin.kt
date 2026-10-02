@@ -30,6 +30,11 @@ fun TugasLogin(modifier: Modifier = Modifier) {
     val sumbul = painterResource(id = R.drawable.sumbul)
 
     Box(modifier = modifier.fillMaxSize()) {
-
+    Image(
+        painter = background,
+        contentDescription = null,
+        contentScale = ContentScale.Crop,
+        modifier = Modifier.fillMaxSize()
+    )
     }
 }
