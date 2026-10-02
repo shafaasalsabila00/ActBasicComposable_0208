@@ -97,7 +97,12 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 .border(width = 3.dp, color = Color.White, shape = CircleShape),
             contentAlignment = Alignment.Center
         ) {
-
+            Image(
+                painter = sumbul,
+                contentDescription = null,
+                contentScale = ContentScale.Fit,
+                modifier = Modifier.fillMaxSize()
+            )
         }
     }
     }
