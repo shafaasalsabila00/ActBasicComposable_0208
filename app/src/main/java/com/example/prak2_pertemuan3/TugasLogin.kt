@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -36,5 +37,24 @@ fun TugasLogin(modifier: Modifier = Modifier) {
         contentScale = ContentScale.Crop,
         modifier = Modifier.fillMaxSize()
     )
+
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(top = 24.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(
+            text = "Login",
+            fontSize = 32.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Blue
+        )
+        Text(
+            text = "Ini adalah halaman login,",
+            fontSize = 32.sp,
+            color = Color.White
+        )
+    }
     }
 }
